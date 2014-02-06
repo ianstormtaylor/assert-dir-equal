@@ -1,4 +1,8 @@
 
-0.0.1 - February 4th, 2013
---------------------------
+0.1.0 - February 5, 2013
+------------------------
+* fix false reporting for non-utf8 files
+
+0.0.1 - February 4, 2013
+------------------------
 :sparkles:

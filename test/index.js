@@ -14,7 +14,15 @@ describe('assert-dir-equal', function(){
 
   it('should throw when two directories are different', function(){
     var one = resolve('test/fixtures/same');
-    var two = resolve('test/fixtures/different');
+    var two = resolve('test/fixtures/different-file');
+    assert.throws(function(){
+      equal(one, two);
+    });
+  });
+
+  it('should throw for non utf-8 files', function(){
+    var one = resolve('test/fixtures/same');
+    var two = resolve('test/fixtures/different-image');
     assert.throws(function(){
       equal(one, two);
     });

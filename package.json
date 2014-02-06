@@ -2,11 +2,13 @@
   "name": "assert-dir-equal",
   "description": "Assert that the contents of two directories are equal.",
   "repository": "git://github.com/ianstormtaylor/assert-dir-equal.git",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "license": "MIT",
   "main": "lib/index.js",
   "dependencies": {
-    "fs-readdir-recursive": "0.0.1"
+    "fs-readdir-recursive": "0.0.1",
+    "is-utf8": "~0.2.0",
+    "buffer-equal": "0.0.0"
   },
   "devDependencies": {
     "mocha": "1.x"

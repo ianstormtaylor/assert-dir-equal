@@ -1,4 +1,8 @@
 
+1.0.0 - March 9, 2013
+---------------------
+* fix ordering of actual and expected
+
 0.1.0 - February 5, 2013
 ------------------------
 * fix false reporting for non-utf8 files

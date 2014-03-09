@@ -1,4 +1,8 @@
 
+1.0.1 - March 9, 2013
+---------------------
+* add npmignore
+
 1.0.0 - March 9, 2013
 ---------------------
 * fix ordering of actual and expected

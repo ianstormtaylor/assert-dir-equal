@@ -5,6 +5,9 @@
   "version": "1.0.1",
   "license": "MIT",
   "main": "lib/index.js",
+  "scripts": {
+    "test": "mocha"
+  },
   "dependencies": {
     "fs-readdir-recursive": "0.0.1",
     "is-utf8": "~0.2.0",

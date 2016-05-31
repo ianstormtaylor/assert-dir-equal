@@ -13,10 +13,10 @@
 var assert = require('assert-dir-equal');
 
 // doesn't throw
-assert('path/to/dir', 'path/to/identical-dir');
+assert('path/to/actual', 'path/to/expected');
 
 // throws
-assert('path/to/dir', 'path/to/different-dir');
+assert('path/to/actual', 'path/to/not-identical');
 ```
 
 ## License

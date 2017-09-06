@@ -27,4 +27,20 @@ describe('assert-dir-equal', function(){
       equal(one, two);
     });
   });
+
+  it('should ignore hidden files by default', function() {
+    var one = resolve('test/fixtures/with-hidden-file');
+    var two = resolve('test/fixtures/just-file');
+    assert.doesNotThrow(function () {
+      equal(one, two);
+    });
+  })
+
+  it('should allow seeing hidden files', function(){
+    var one = resolve('test/fixtures/with-hidden-file');
+    var two = resolve('test/fixtures/just-file');
+    assert.throws(function(){
+      equal(one, two, {filter: () => true});
+    });
+  });
 });

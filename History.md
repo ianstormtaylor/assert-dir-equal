@@ -1,4 +1,8 @@
 
+1.1.0 - September 6, 2017
+-------------------------
+* add `filter` option
+
 1.0.1 - March 9, 2013
 ---------------------
 * add npmignore

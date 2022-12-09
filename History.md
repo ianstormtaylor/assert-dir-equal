@@ -1,3 +1,11 @@
+2.0.0 - December 8, 2022
+------------------------
+* 71052dc Updates fs-readdir-recursive to latest & tidies package.json
+* aaf8151 Modernize repository code, fix eslint no-use-before-define, use strictEqual
+* 391bdba Upgrades mocha to ^9.2.2 and drops Node < 12 support
+* 76626c5 1.1.0
+* 6f33ddf Merge pull request #3 from gaggle/allow-filter-function
+* c2ee765 Adds license file, removes makefile, and makes readme contents more informative
 
 1.1.0 - September 6, 2017
 -------------------------

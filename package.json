@@ -1,19 +1,40 @@
 {
   "name": "assert-dir-equal",
+  "version": "2.0.0",
   "description": "Assert that the contents of two directories are equal.",
-  "repository": "git://github.com/ianstormtaylor/assert-dir-equal.git",
-  "version": "1.1.0",
+  "keywords": [
+    "assert",
+    "test",
+    "directory",
+    "compare",
+    "buffer"
+  ],
+  "homepage": "https://github.com/ianstormtaylor/assert-dir-equal#readme",
+  "bugs": {
+    "url": "https://github.com/ianstormtaylor/assert-dir-equal"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ianstormtaylor/assert-dir-equal.git"
+  },
   "license": "MIT",
+  "author": "Ian Storm Tayler (https://github.com/ianstormtaylor)",
   "main": "lib/index.js",
+  "files": [
+    "lib/index.js"
+  ],
   "scripts": {
     "test": "mocha"
   },
   "dependencies": {
-    "fs-readdir-recursive": "0.0.1",
-    "is-utf8": "~0.2.0",
-    "buffer-equal": "0.0.0"
+    "buffer-equal": "^1.0.1",
+    "fs-readdir-recursive": "^1.1.0",
+    "is-utf8": "~0.2.0"
   },
   "devDependencies": {
-    "mocha": "1.x"
+    "mocha": "^9.2.2"
+  },
+  "engines": {
+    "node": ">=12"
   }
 }

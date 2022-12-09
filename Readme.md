@@ -1,16 +1,16 @@
 
 # assert-dir-equal
 
-  Assert that the contents of two directories are equal.
+Assert that the contents of two directories are equal. Uses file list checks, string comparison for utf-8 compatible files, and buffer contents comparison for binaries.
 
 ## Installation
 
-    $ npm install assert-dir-equal
+    npm install assert-dir-equal
 
 ## Example
 
 ```js
-var assert = require('assert-dir-equal');
+const assert = require('assert-dir-equal');
 
 // doesn't throw
 assert('path/to/actual', 'path/to/expected');
@@ -28,4 +28,4 @@ assert('path/to/actual', 'path/to/expected', {filter: () => true});
 
 ## License
 
-  MIT
+[MIT](LICENSE)
